@@ -73,8 +73,8 @@ private:
 			number = new_number;
 		}
 	private:
-		string name;
-		string number;
+		std::string name;
+		std::string number;
 	}; 
 	// Private Functions
 	/** Searches the array of directory entries for the name.
