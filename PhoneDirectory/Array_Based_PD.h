@@ -53,24 +53,29 @@ public:
 	void save();
 
 private:
-	class Directory_Entry
+	class Directory_Entry // The following code is completed by Enerelt Bat-Erdene
 	{
 	public:
 		Directory_Entry() {} // Default no-argument constructor 
 		Directory_Entry(std::string the_name, std::string the_number) {
-			// constructor not implemented yet
+			name = the_name;
+			number = the_number;
+			// constructor implemented successfuly
 		}
 		std::string get_name() const {
-			return ""; // method not implemented yet
+			return name; // Getting the name
 		}
 		std::string get_number() const {
-			return ""; // method not implemented yet
+			return number; // Getting the number
 		}
 		void set_number(const std::string& new_number) {
-			// method not implemented yet
+			// Setting the number
+			number = new_number;
 		}
 	private:
-	};
+		string name;
+		string number;
+	}; 
 	// Private Functions
 	/** Searches the array of directory entries for the name.
 		@param name The name to be found
