@@ -72,10 +72,6 @@ private:
 			// Setting the number
 			number = new_number;
 		}
-		void set_name(const std::string& new_name) {
-			// Setting the name
-			number = new_name;
-		}
 	private:
 		std::string name;
 		std::string number;
